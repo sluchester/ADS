@@ -1,0 +1,2144 @@
+run_id,step,state,rate_Mbps,iperf_returncode,iperf_stderr,iperf_stdout_snippet,duration_s,bytes_sent,achieved_Mbps,wall_start,wall_end,wall_duration
+20251003_162300,1,0,0,,,,0.0,0,0.0,1759519380.3661392,1759519380.36614,7.152557373046875e-07
+20251003_162300,2,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	40473,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:00 GMT"",
+			""timesecs"":	1759519380
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""ea2rjspfxjwze5v6hmedqffg7wb3orsalkl5"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000381,
+					""seconds"":	1.0003809928894043,
+					""bytes"":	1277952,
+					""bits_per_second"":	10219722.358449744,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000381,
+				""seconds"":	1.0003809928894043,
+				""bytes"":	1277952,
+				""bits_per_second"":	10219722.358449744,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000381,
+					""end"":	2.001079,
+					""seconds"":	1.00069797039032,
+					""bytes"":	1245184,
+					""bits_per_second"":	9954524.0369724669,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000381,
+				""end"":	2.001079,
+				""seconds"":	1.00069797039032,
+				""bytes"":	1245184,
+				""bits_per_second"":	9954524.0369724669,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001079,
+					""end"":	3.001082,
+					""seconds"":	1.0000029802322388,
+					""bytes",5.000618,6258688,10.012663234824174,1759519380.3671255,1759519385.3724205,5.005295038223267
+20251003_162300,3,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	40777,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:05 GMT"",
+			""timesecs"":	1759519385
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""twm4bxgnxdccbwtxdjmvzz2jqxtldfmjr27h"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001039,
+					""seconds"":	1.0010390281677246,
+					""bytes"":	6258688,
+					""bits_per_second"":	50017534.372906417,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001039,
+				""seconds"":	1.0010390281677246,
+				""bytes"":	6258688,
+				""bits_per_second"":	50017534.372906417,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001039,
+					""end"":	2.001032,
+					""seconds"":	0.99999302625656128,
+					""bytes"":	6258688,
+					""bits_per_second"":	50069853.174310051,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001039,
+				""end"":	2.001032,
+				""seconds"":	0.99999302625656128,
+				""bytes"":	6258688,
+				""bits_per_second"":	50069853.174310051,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001032,
+					""end"":	3.000607,
+					""seconds"":	0.99957501888275146,
+",5.001202,31260672,50.005053985022,1759519385.374772,1759519390.3888912,5.0141191482543945
+20251003_162300,4,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	52747,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:10 GMT"",
+			""timesecs"":	1759519390
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""kruhvx2l66nu4ynolwfxpuaknzqmplbhx5fc"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001073,
+					""seconds"":	1.0010730028152466,
+					""bytes"":	6258688,
+					""bits_per_second"":	50015836.866235614,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001073,
+				""seconds"":	1.0010730028152466,
+				""bytes"":	6258688,
+				""bits_per_second"":	50015836.866235614,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001073,
+					""end"":	2.001072,
+					""seconds"":	0.99999898672103882,
+					""bytes"":	6258688,
+					""bits_per_second"":	50069554.7344264,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001073,
+				""end"":	2.001072,
+				""seconds"":	0.99999898672103882,
+				""bytes"":	6258688,
+				""bits_per_second"":	50069554.7344264,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001072,
+					""end"":	3.000389,
+					""seconds"":	0.9993169903755188,
+					",5.000641,31260672,50.01066383289662,1759519390.391968,1759519395.3987088,5.0067408084869385
+20251003_162300,5,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	44312,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:15 GMT"",
+			""timesecs"":	1759519395
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""ekte4lgzjanyomsr2uzposqsuhh3y6kntbrt"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001029,
+					""seconds"":	1.0010290145874023,
+					""bytes"":	6258688,
+					""bits_per_second"":	50018034.7126475,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001029,
+				""seconds"":	1.0010290145874023,
+				""bytes"":	6258688,
+				""bits_per_second"":	50018034.7126475,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001029,
+					""end"":	2.000608,
+					""seconds"":	0.99957901239395142,
+					""bytes"":	6258688,
+					""bits_per_second"":	50090591.5182088,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001029,
+				""end"":	2.000608,
+				""seconds"":	0.99957901239395142,
+				""bytes"":	6258688,
+				""bits_per_second"":	50090591.5182088,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000608,
+					""end"":	3.000656,
+					""seconds"":	1.000048041343689,
+					""byte",5.000967,31260672,50.007403768111246,1759519395.399273,1759519400.4137697,5.014496803283691
+20251003_162300,6,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	43539,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:20 GMT"",
+			""timesecs"":	1759519400
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""l547y6nloryuvpkb7hgfev4sjqy5t4xx65b2"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000618,
+					""seconds"":	1.0006179809570312,
+					""bytes"":	6258688,
+					""bits_per_second"":	50038581.1097573,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000618,
+				""seconds"":	1.0006179809570312,
+				""bytes"":	6258688,
+				""bits_per_second"":	50038581.1097573,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000618,
+					""end"":	2.001044,
+					""seconds"":	1.0004260540008545,
+					""bytes"":	6258688,
+					""bits_per_second"":	50048180.772346452,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000618,
+				""end"":	2.001044,
+				""seconds"":	1.0004260540008545,
+				""bytes"":	6258688,
+				""bits_per_second"":	50048180.772346452,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001044,
+					""end"":	3.000331,
+					""seconds"":	0.99928700923919678,
+					""",5.001477,31260672,50.002304519245016,1759519400.4143784,1759519405.429442,5.015063524246216
+20251003_162300,7,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	59458,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:25 GMT"",
+			""timesecs"":	1759519405
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""vpyrhp25wvzlchdzda6h2xjc4ljmzi3exm37"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.00112,
+					""seconds"":	1.0011199712753296,
+					""bytes"":	6258688,
+					""bits_per_second"":	50013490.327454276,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.00112,
+				""seconds"":	1.0011199712753296,
+				""bytes"":	6258688,
+				""bits_per_second"":	50013490.327454276,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.00112,
+					""end"":	2.001114,
+					""seconds"":	0.99999397993087769,
+					""bytes"":	6258688,
+					""bits_per_second"":	50069805.4236896,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.00112,
+				""end"":	2.001114,
+				""seconds"":	0.99999397993087769,
+				""bytes"":	6258688,
+				""bits_per_second"":	50069805.4236896,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001114,
+					""end"":	3.000754,
+					""seconds"":	0.99963998794555664,
+					""by",5.001446,31260672,50.00261444390283,1759519405.4300861,1759519410.4426866,5.012600421905518
+20251003_162300,8,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	60377,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:30 GMT"",
+			""timesecs"":	1759519410
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""bvlvvghyyzhlncka624l2fq24cpo4s64goyn"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000737,
+					""seconds"":	1.0007369518280029,
+					""bytes"":	6258688,
+					""bits_per_second"":	50032632.360122412,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000737,
+				""seconds"":	1.0007369518280029,
+				""bytes"":	6258688,
+				""bits_per_second"":	50032632.360122412,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000737,
+					""end"":	2.000631,
+					""seconds"":	0.99989402294158936,
+					""bytes"":	6258688,
+					""bits_per_second"":	50074810.781147055,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000737,
+				""end"":	2.000631,
+				""seconds"":	0.99989402294158936,
+				""bytes"":	6258688,
+				""bits_per_second"":	50074810.781147055,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000631,
+					""end"":	3.000633,
+					""seconds"":	1.0000020265579224,
+	",5.001362,31260672,50.00345425905983,1759519410.443132,1759519415.4556332,5.012501239776611
+20251003_162300,9,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	60354,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:35 GMT"",
+			""timesecs"":	1759519415
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""k45h3c4eb2tv2bj7hkoxo7xhm5357gy2uqdr"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001027,
+					""seconds"":	1.00102698802948,
+					""bytes"":	1277952,
+					""bits_per_second"":	10213127.240580369,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001027,
+				""seconds"":	1.00102698802948,
+				""bytes"":	1277952,
+				""bits_per_second"":	10213127.240580369,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001027,
+					""end"":	2.001036,
+					""seconds"":	1.0000089406967163,
+					""bytes"":	1245184,
+					""bits_per_second"":	9961382.9382962734,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001027,
+				""end"":	2.001036,
+				""seconds"":	1.0000089406967163,
+				""bytes"":	1245184,
+				""bits_per_second"":	9961382.9382962734,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001036,
+					""end"":	3.001029,
+					""seconds"":	0.99999302625656128,
+					""byte",5.001363,6258688,10.011171754579703,1759519415.4561725,1759519420.4675517,5.011379241943359
+20251003_162300,10,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	45398,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:40 GMT"",
+			""timesecs"":	1759519420
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""kjn6lvkbz3fxnb6ed6fcv43fgzwpfi7l5vla"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000879,
+					""seconds"":	1.0008790493011475,
+					""bytes"":	1277952,
+					""bits_per_second"":	10214636.830632558,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000879,
+				""seconds"":	1.0008790493011475,
+				""bytes"":	1277952,
+				""bits_per_second"":	10214636.830632558,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000879,
+					""end"":	2.001029,
+					""seconds"":	1.0001499652862549,
+					""bytes"":	1245184,
+					""bits_per_second"":	9959978.3489958,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000879,
+				""end"":	2.001029,
+				""seconds"":	1.0001499652862549,
+				""bytes"":	1245184,
+				""bits_per_second"":	9959978.3489958,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001029,
+					""end"":	3.001032,
+					""seconds"":	1.0000029802322388,
+					""bytes"":",5.0014,6258688,10.011097692646059,1759519420.4681606,1759519425.4802077,5.012047052383423
+20251003_162300,11,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	37147,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:45 GMT"",
+			""timesecs"":	1759519425
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""6wdulqvj6hmhr3wnw2k667inthagxkl7v4ft"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001646,
+					""seconds"":	1.0016460418701172,
+					""bytes"":	1277952,
+					""bits_per_second"":	10206815.1548945,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001646,
+				""seconds"":	1.0016460418701172,
+				""bytes"":	1277952,
+				""bits_per_second"":	10206815.1548945,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001646,
+					""end"":	2.00066,
+					""seconds"":	0.99901401996612549,
+					""bytes"":	1245184,
+					""bits_per_second"":	9971303.5061687846,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001646,
+				""end"":	2.00066,
+				""seconds"":	0.99901401996612549,
+				""bytes"":	1245184,
+				""bits_per_second"":	9971303.5061687846,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.00066,
+					""end"":	3.001073,
+					""seconds"":	1.0004129409790039,
+					""bytes""",5.001463,6258688,10.010971589712849,1759519425.4806564,1759519430.493933,5.01327657699585
+20251003_162300,12,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	33887,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:50 GMT"",
+			""timesecs"":	1759519430
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""xkwhbn7xyg3kw5lj7xsky337vujo4nkmjpuc"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000624,
+					""seconds"":	1.0006239414215088,
+					""bytes"":	6258688,
+					""bits_per_second"":	50038283.042548575,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000624,
+				""seconds"":	1.0006239414215088,
+				""bytes"":	6258688,
+				""bits_per_second"":	50038283.042548575,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000624,
+					""end"":	2.001054,
+					""seconds"":	1.00042998790741,
+					""bytes"":	6258688,
+					""bits_per_second"":	50047983.972101763,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000624,
+				""end"":	2.001054,
+				""seconds"":	1.00042998790741,
+				""bytes"":	6258688,
+				""bits_per_second"":	50047983.972101763,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001054,
+					""end"":	3.001044,
+					""seconds"":	0.99998998641967773,
+					""",5.001017,31260672,50.00690379576794,1759519430.4943771,1759519435.5054905,5.011113405227661
+20251003_162300,13,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	50119,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:23:55 GMT"",
+			""timesecs"":	1759519435
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""lxwxqhcpud2tnpjkeyladofmm3lqpkvf4wi4"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000784,
+					""seconds"":	1.0007840394973755,
+					""bytes"":	1277952,
+					""bits_per_second"":	10215606.560966553,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000784,
+				""seconds"":	1.0007840394973755,
+				""bytes"":	1277952,
+				""bits_per_second"":	10215606.560966553,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000784,
+					""end"":	2.001056,
+					""seconds"":	1.0002720355987549,
+					""bytes"":	1245184,
+					""bits_per_second"":	9958762.86198198,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000784,
+				""end"":	2.001056,
+				""seconds"":	1.0002720355987549,
+				""bytes"":	1245184,
+				""bits_per_second"":	9958762.86198198,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001056,
+					""end"":	3.001044,
+					""seconds"":	0.9999880194664,
+					""bytes"":	",5.001407,6258688,10.011083681052153,1759519435.505978,1759519440.5185843,5.012606143951416
+20251003_162300,14,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	33912,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:00 GMT"",
+			""timesecs"":	1759519440
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""gik433qv4aqzjrl4yyzna5n3xzizmoou272y"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000583,
+					""seconds"":	1.0005830526351929,
+					""bytes"":	6258688,
+					""bits_per_second"":	50040327.854978241,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000583,
+				""seconds"":	1.0005830526351929,
+				""bytes"":	6258688,
+				""bits_per_second"":	50040327.854978241,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000583,
+					""end"":	2.001044,
+					""seconds"":	1.0004609823226929,
+					""bytes"":	6258688,
+					""bits_per_second"":	50046433.478852421,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000583,
+				""end"":	2.001044,
+				""seconds"":	1.0004609823226929,
+				""bytes"":	6258688,
+				""bits_per_second"":	50046433.478852421,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001044,
+					""end"":	3.000619,
+					""seconds"":	0.99957501888275146,
+		",5.001386,31260672,50.00321430899355,1759519440.519088,1759519445.5308194,5.011731386184692
+20251003_162300,15,0,0,,,,0.0,0,0.0,1759519445.5314798,1759519445.531481,1.1920928955078125e-06
+20251003_162300,16,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	47703,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:05 GMT"",
+			""timesecs"":	1759519445
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""j3rvpyvyprnr22u27kov7szscax44ussfduj"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000157,
+					""seconds"":	1.0001569986343384,
+					""bytes"":	1277952,
+					""bits_per_second"":	10222011.15820797,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000157,
+				""seconds"":	1.0001569986343384,
+				""bytes"":	1277952,
+				""bits_per_second"":	10222011.15820797,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000157,
+					""end"":	2.001042,
+					""seconds"":	1.000885009765625,
+					""bytes"":	1245184,
+					""bits_per_second"":	9952663.7953471355,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000157,
+				""end"":	2.001042,
+				""seconds"":	1.000885009765625,
+				""bytes"":	1245184,
+				""bits_per_second"":	9952663.7953471355,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001042,
+					""end"":	3.000134,
+					""seconds"":	0.9990919828414917,
+					""bytes",5.001475,6258688,10.010947570466712,1759519445.5324004,1759519450.5443666,5.011966228485107
+20251003_162300,17,0,0,,,,0.0,0,0.0,1759519450.5448318,1759519450.544833,1.1920928955078125e-06
+20251003_162300,18,0,0,,,,0.0,0,0.0,1759519450.545234,1759519450.5452347,7.152557373046875e-07
+20251003_162300,19,0,0,,,,0.0,0,0.0,1759519450.5456553,1759519450.5456562,9.5367431640625e-07
+20251003_162300,20,0,0,,,,0.0,0,0.0,1759519450.5461648,1759519450.546166,1.1920928955078125e-06
+20251003_162300,21,0,0,,,,0.0,0,0.0,1759519450.548443,1759519450.5484538,1.0728836059570312e-05
+20251003_162300,22,0,0,,,,0.0,0,0.0,1759519450.550459,1759519450.5504603,1.430511474609375e-06
+20251003_162300,23,0,0,,,,0.0,0,0.0,1759519450.5513713,1759519450.5513752,3.814697265625e-06
+20251003_162300,24,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	34894,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:10 GMT"",
+			""timesecs"":	1759519450
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""aadrojzkan26lsttfnqap4yw4dkpk7ep4utm"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000716,
+					""seconds"":	1.000715970993042,
+					""bytes"":	6258688,
+					""bits_per_second"":	50033681.335488684,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000716,
+				""seconds"":	1.000715970993042,
+				""bytes"":	6258688,
+				""bits_per_second"":	50033681.335488684,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000716,
+					""end"":	2.000701,
+					""seconds"":	0.9999849796295166,
+					""bytes"":	6258688,
+					""bits_per_second"":	50070256.073796429,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000716,
+				""end"":	2.000701,
+				""seconds"":	0.9999849796295166,
+				""bytes"":	6258688,
+				""bits_per_second"":	50070256.073796429,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000701,
+					""end"":	3.001051,
+					""seconds"":	1.0003499984741211,
+					",5.001047,31260672,50.00660381716069,1759519450.5540733,1759519455.5682948,5.014221429824829
+20251003_162300,25,0,0,,,,0.0,0,0.0,1759519455.5688207,1759519455.5688224,1.6689300537109375e-06
+20251003_162300,26,0,0,,,,0.0,0,0.0,1759519455.5692117,1759519455.569213,1.1920928955078125e-06
+20251003_162300,27,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	45501,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:15 GMT"",
+			""timesecs"":	1759519455
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""5gghlizfojipdn46hnfriuxvuxvdt7vxtnus"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.001055,
+					""seconds"":	1.0010550022125244,
+					""bytes"":	6258688,
+					""bits_per_second"":	50016736.232611343,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.001055,
+				""seconds"":	1.0010550022125244,
+				""bytes"":	6258688,
+				""bits_per_second"":	50016736.232611343,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.001055,
+					""end"":	2.000267,
+					""seconds"":	0.99921202659606934,
+					""bytes"":	6258688,
+					""bits_per_second"":	50108988.550275482,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.001055,
+				""end"":	2.000267,
+				""seconds"":	0.99921202659606934,
+				""bytes"":	6258688,
+				""bits_per_second"":	50108988.550275482,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000267,
+					""end"":	3.000246,
+					""seconds"":	0.999979019165039,
+		",5.001487,31260672,50.0022045443685,1759519455.5696003,1759519460.5845134,5.014913082122803
+20251003_162300,28,0,0,,,,0.0,0,0.0,1759519460.5853136,1759519460.5853152,1.6689300537109375e-06
+20251003_162300,29,0,0,,,,0.0,0,0.0,1759519460.585815,1759519460.5858161,1.1920928955078125e-06
+20251003_162300,30,0,0,,,,0.0,0,0.0,1759519460.586226,1759519460.5862267,7.152557373046875e-07
+20251003_162300,31,0,0,,,,0.0,0,0.0,1759519460.5865033,1759519460.586504,7.152557373046875e-07
+20251003_162300,32,0,0,,,,0.0,0,0.0,1759519460.5869436,1759519460.5869455,1.9073486328125e-06
+20251003_162300,33,0,0,,,,0.0,0,0.0,1759519460.5888665,1759519460.5888686,2.1457672119140625e-06
+20251003_162300,34,0,0,,,,0.0,0,0.0,1759519460.5907388,1759519460.59074,1.1920928955078125e-06
+20251003_162300,35,0,0,,,,0.0,0,0.0,1759519460.591196,1759519460.5911977,1.6689300537109375e-06
+20251003_162300,36,0,0,,,,0.0,0,0.0,1759519460.5916317,1759519460.5916328,1.1920928955078125e-06
+20251003_162300,37,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	44843,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:20 GMT"",
+			""timesecs"":	1759519460
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""sertiqclz22oo3cu3ny5p6d7o7un2ug3huk6"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.00035,
+					""seconds"":	1.0003499984741211,
+					""bytes"":	1277952,
+					""bits_per_second"":	10220039.001943862,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.00035,
+				""seconds"":	1.0003499984741211,
+				""bytes"":	1277952,
+				""bits_per_second"":	10220039.001943862,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.00035,
+					""end"":	2.001072,
+					""seconds"":	1.0007220506668091,
+					""bytes"":	1245184,
+					""bits_per_second"":	9954284.50223755,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.00035,
+				""end"":	2.001072,
+				""seconds"":	1.0007220506668091,
+				""bytes"":	1245184,
+				""bits_per_second"":	9954284.50223755,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001072,
+					""end"":	3.001044,
+					""seconds"":	0.99997198581695557,
+					""bytes"":	",5.001505,6258688,10.01088752285562,1759519460.5932035,1759519465.6112165,5.018013000488281
+20251003_162300,38,0,0,,,,0.0,0,0.0,1759519465.6116526,1759519465.6116536,9.5367431640625e-07
+20251003_162300,39,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	60149,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:25 GMT"",
+			""timesecs"":	1759519465
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""xfiusqrbwcohpxfzb766hqtsfo6zormtg5nz"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000633,
+					""seconds"":	1.0006330013275146,
+					""bytes"":	1277952,
+					""bits_per_second"":	10217148.5314162,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000633,
+				""seconds"":	1.0006330013275146,
+				""bytes"":	1277952,
+				""bits_per_second"":	10217148.5314162,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000633,
+					""end"":	2.000607,
+					""seconds"":	0.999974012374878,
+					""bytes"":	1245184,
+					""bits_per_second"":	9961730.88172772,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000633,
+				""end"":	2.000607,
+				""seconds"":	0.999974012374878,
+				""bytes"":	1245184,
+				""bits_per_second"":	9961730.88172772,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000607,
+					""end"":	3.000675,
+					""seconds"":	1.0000679492950439,
+					""bytes"":	124",5.001257,6258688,10.011383938077968,1759519465.612069,1759519470.6187687,5.006699800491333
+20251003_162300,40,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	49362,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:30 GMT"",
+			""timesecs"":	1759519470
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""6j6ajp4gc2hdwjsvf5h67t7pwnt5k7gbmyrs"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000336,
+					""seconds"":	1.0003360509872437,
+					""bytes"":	1277952,
+					""bits_per_second"":	10220181.497917816,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000336,
+				""seconds"":	1.0003360509872437,
+				""bytes"":	1277952,
+				""bits_per_second"":	10220181.497917816,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000336,
+					""end"":	2.001046,
+					""seconds"":	1.0007100105285645,
+					""bytes"":	1245184,
+					""bits_per_second"":	9954404.2681640163,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000336,
+				""end"":	2.001046,
+				""seconds"":	1.0007100105285645,
+				""bytes"":	1245184,
+				""bits_per_second"":	9954404.2681640163,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001046,
+					""end"":	3.000241,
+					""seconds"":	0.99919497966766357,
+					""",5.001373,6258688,10.011151737732819,1759519470.6199126,1759519475.6350665,5.015153884887695
+20251003_162300,41,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	60796,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:35 GMT"",
+			""timesecs"":	1759519475
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""wfr73hw7bqczee7gesdrhlv5nazy4tfrfxtd"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000955,
+					""seconds"":	1.0009549856185913,
+					""bytes"":	6258688,
+					""bits_per_second"":	50021733.9634479,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000955,
+				""seconds"":	1.0009549856185913,
+				""bytes"":	6258688,
+				""bits_per_second"":	50021733.9634479,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000955,
+					""end"":	2.001042,
+					""seconds"":	1.0000870227813721,
+					""bytes"":	6258688,
+					""bits_per_second"":	50065147.191641584,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000955,
+				""end"":	2.001042,
+				""seconds"":	1.0000870227813721,
+				""bytes"":	6258688,
+				""bits_per_second"":	50065147.191641584,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001042,
+					""end"":	3.001395,
+					""seconds"":	1.00035297870636,
+					""byt",5.001372,31260672,50.00335427958568,1759519475.6355407,1759519480.6513596,5.01581883430481
+20251003_162300,42,0,0,,,,0.0,0,0.0,1759519480.651841,1759519480.651842,1.1920928955078125e-06
+20251003_162300,43,2,50,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	46337,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:40 GMT"",
+			""timesecs"":	1759519480
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""xvzwbiahucg3iz6qep7hal35zorps6nyqhwa"",
+		""target_bitrate"":	50000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	50000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000565,
+					""seconds"":	1.0005650520324707,
+					""bytes"":	6258688,
+					""bits_per_second"":	50041228.102353439,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000565,
+				""seconds"":	1.0005650520324707,
+				""bytes"":	6258688,
+				""bits_per_second"":	50041228.102353439,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000565,
+					""end"":	2.000562,
+					""seconds"":	0.99999701976776123,
+					""bytes"":	6258688,
+					""bits_per_second"":	50069653.2191947,
+					""packets"":	191,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000565,
+				""end"":	2.000562,
+				""seconds"":	0.99999701976776123,
+				""bytes"":	6258688,
+				""bits_per_second"":	50069653.2191947,
+				""packets"":	191,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000562,
+					""end"":	3.000694,
+					""seconds"":	1.0001319646835327,
+					",5.001343,31260672,50.00364422116219,1759519480.6522279,1759519485.66786,5.015632152557373
+20251003_162300,44,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	59824,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:45 GMT"",
+			""timesecs"":	1759519485
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""blq47jybm4lujwtetqx353yxbzyp4sqrjvwi"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.000484,
+					""seconds"":	1.0004839897155762,
+					""bytes"":	1277952,
+					""bits_per_second"":	10218670.268683093,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.000484,
+				""seconds"":	1.0004839897155762,
+				""bytes"":	1277952,
+				""bits_per_second"":	10218670.268683093,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.000484,
+					""end"":	2.001044,
+					""seconds"":	1.0005600452423096,
+					""bytes"":	1245184,
+					""bits_per_second"":	9955896.24767356,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.000484,
+				""end"":	2.001044,
+				""seconds"":	1.0005600452423096,
+				""bytes"":	1245184,
+				""bits_per_second"":	9955896.24767356,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.001044,
+					""end"":	3.001079,
+					""seconds"":	1.0000350475311279,
+					""bytes",5.000832,6258688,10.012234764135247,1759519485.6682909,1759519490.6762714,5.007980585098267
+20251003_162300,45,0,0,,,,0.0,0,0.0,1759519490.676746,1759519490.676747,1.1920928955078125e-06
+20251003_162300,46,0,0,,,,0.0,0,0.0,1759519490.6772544,1759519490.6772559,1.430511474609375e-06
+20251003_162300,47,0,0,,,,0.0,0,0.0,1759519490.6777964,1759519490.6777978,1.430511474609375e-06
+20251003_162300,48,1,10,0,,"{
+	""start"":	{
+		""connected"":	[{
+				""socket"":	5,
+				""local_host"":	""127.0.0.1"",
+				""local_port"":	46743,
+				""remote_host"":	""127.0.0.1"",
+				""remote_port"":	5201
+			}],
+		""version"":	""iperf 3.19.1"",
+		""system_info"":	""Linux algo 6.15.6-1-default #1 SMP PREEMPT_DYNAMIC Fri Jul 11 05:06:35 UTC 2025 (a69e09e) x86_64"",
+		""timestamp"":	{
+			""time"":	""Fri, 03 Oct 2025 19:24:50 GMT"",
+			""timesecs"":	1759519490
+		},
+		""connecting_to"":	{
+			""host"":	""127.0.0.1"",
+			""port"":	5201
+		},
+		""cookie"":	""r3jzjcwxiyaoex6szhofia47tc34wrm2qncj"",
+		""target_bitrate"":	10000000,
+		""fq_rate"":	0,
+		""sock_bufsize"":	0,
+		""sndbuf_actual"":	212992,
+		""rcvbuf_actual"":	212992,
+		""test_start"":	{
+			""protocol"":	""UDP"",
+			""num_streams"":	1,
+			""blksize"":	32768,
+			""omit"":	0,
+			""duration"":	5,
+			""bytes"":	0,
+			""blocks"":	0,
+			""reverse"":	0,
+			""tos"":	0,
+			""target_bitrate"":	10000000,
+			""bidir"":	0,
+			""fqrate"":	0,
+			""interval"":	1
+		}
+	},
+	""intervals"":	[{
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	0,
+					""end"":	1.00013,
+					""seconds"":	1.0001300573349,
+					""bytes"":	1277952,
+					""bits_per_second"":	10222286.51665906,
+					""packets"":	39,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	0,
+				""end"":	1.00013,
+				""seconds"":	1.0001300573349,
+				""bytes"":	1277952,
+				""bits_per_second"":	10222286.51665906,
+				""packets"":	39,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	1.00013,
+					""end"":	2.000134,
+					""seconds"":	1.0000040531158447,
+					""bytes"":	1245184,
+					""bits_per_second"":	9961431.6251636446,
+					""packets"":	38,
+					""omitted"":	false,
+					""sender"":	true
+				}],
+			""sum"":	{
+				""start"":	1.00013,
+				""end"":	2.000134,
+				""seconds"":	1.0000040531158447,
+				""bytes"":	1245184,
+				""bits_per_second"":	9961431.6251636446,
+				""packets"":	38,
+				""omitted"":	false,
+				""sender"":	true
+			}
+		}, {
+			""streams"":	[{
+					""socket"":	5,
+					""start"":	2.000134,
+					""end"":	3.001114,
+					""seconds"":	1.000980019569397,
+					""bytes"":	124518",5.000511,6258688,10.012877483921143,1759519490.6799512,1759519495.6935005,5.013549327850342
+20251003_162300,49,0,0,,,,0.0,0,0.0,1759519495.693977,1759519495.693978,9.5367431640625e-07
+20251003_162300,50,0,0,,,,0.0,0,0.0,1759519495.69435,1759519495.6943512,1.1920928955078125e-06
