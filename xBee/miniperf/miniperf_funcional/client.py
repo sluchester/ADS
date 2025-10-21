@@ -48,13 +48,18 @@ def run_client(port, remote_addr, num_pacotes, max_tempo, packets_per_second, ba
     inicio = time.time()
     interval = 1.0 / packets_per_second if packets_per_second else 0
 
-    while enviados < num_pacotes and (time.time() - inicio) < max_tempo:
+    next_send = time.time()
+    while enviados < num_pacotes:
         seq += 1
         msg = f"DATA;{sessionID};{seq};{payload}"
         device.send_data(remote, msg)
         enviados += 1
-        if interval:
-            time.sleep(interval)
+
+        next_send += interval
+        delay = next_send - time.time()
+        if delay > 0:
+            time.sleep(delay)
+
 
     device.send_data(remote, f"END;{sessionID}")
     print(f"Enviados {enviados} pacotes. Aguardando REPORT...")
